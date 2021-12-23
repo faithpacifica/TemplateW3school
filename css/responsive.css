@@ -1,0 +1,107 @@
+@media (min-width: 992px) and (max-width: 1399.98px) { 
+    .sidebar{
+        display: block;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) { 
+    .sidebar{
+        display: none;
+    }
+    .main-content{
+        margin-left: 0px;
+    }
+
+    .hidden__avatar{
+        display: block;
+    }
+    
+    .hamburger__icon {
+        display: block;
+    }
+
+    .sidebar-x-button{
+        display: block;
+    }
+ }
+
+
+@media (min-width: 601px) and (max-width: 767.99px) { 
+
+    .sidebar{
+        display: none;
+    }
+    .main-content{
+        margin-left: 0 !important;
+    }
+    .hidden__avatar{
+        display: block;
+    }
+    .hamburger__icon {
+        display: block;
+    }
+    .sidebar-x-button{
+        display: block;
+    }
+ }
+
+@media (min-width: 320px) and (max-width: 600.99px) { 
+    .sidebar{
+        display: none;
+    }
+
+    .main-content{
+        margin-left: 0px;
+    }
+
+    .hide{
+        display:none;
+    }
+
+    .hidden__avatar{
+        display: block;
+    }
+
+    .hamburger__icon {
+        display: block;
+    }
+
+    .sidebar-x-button{
+        display: block;
+    }
+
+    .photo-grid__card{
+        width: 100%;
+    }
+    .about__images {
+        display: block;
+    }
+    .about__image{
+        width: 100%;
+        display: block;
+    }
+    .payment-tables__wrapper {
+        display: block;
+    }
+
+    .payment-table{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contact-info{
+        display: block;
+    }
+
+    .contact-info__type{
+        width: 100%;
+    }
+
+    .footer-top {
+        display: block;
+    }
+
+    .footer__info,.footer__blogs, .popular__tags{
+        width: 100%;
+    }
+ }
