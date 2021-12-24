@@ -16,9 +16,9 @@ const elInputEmail = document.getElementById("email");
 const elInputMessage = document.getElementById("msg");
 const elSubmitButton = document.getElementById("submitButton");
 
-let el1IsValid = false;
-let el2IsValid = false;
-let el3IsValid = false;
+// let el1IsValid = false;
+// let el2IsValid = false;
+// let el3IsValid = false;
 
 elInputName.addEventListener("change", function (e) {
   console.log(e.target.value);
@@ -30,14 +30,14 @@ elInputName.addEventListener("change", function (e) {
 });
 
 elInputEmail.addEventListener("change", function (e) {
-  if (e.target.value != "") el2IsValid = true;
+  // if (e.target.value != "") el2IsValid = true;
   CheckButton();
   console.log(e.target.value);
 });
 
 elInputMessage.addEventListener("change", function (e) {
   console.log(e.target.value);
-  if (e.target.value != "") el3IsValid = true;
+  // if (e.target.value != "") el3IsValid = true;
   CheckButton();
 });
 
