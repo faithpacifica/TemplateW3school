@@ -42,7 +42,8 @@ const CheckButton = () => {
       : true;
 };
 
-elSubmitButton.addEventListener('click', () =>{
+elSubmitButton.addEventListener('click', (e) =>{
+  e.preventDefault();
  console.log(elInputName.value);
   console.log(elInputEmail.value);
   console.log(elInputMessage.value);
